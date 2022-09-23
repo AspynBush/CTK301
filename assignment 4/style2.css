@@ -1,0 +1,23 @@
+p {
+ color: #000000;
+ background-color: #efcc77;
+}
+
+}
+#specialid {
+  color: #ffd380;
+ background-color: #000000;
+}
+.specialp {
+ color:  #ffd380;
+ background-color: #730200;
+}
+a {
+ color: #ff0000;
+}
+a:hover {
+ color: #ffff00;
+}
+a:visited {
+ color: #00ff00;
+}

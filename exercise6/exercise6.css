@@ -1,0 +1,53 @@
+body { background-color: #999999; }
+
+#wrapper {
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  margin: 1em auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat (12,1fr);
+}
+
+header {
+  border: 1px solid red;
+  grid-column: span 12;
+}
+
+nav{
+  border: 1px solid red;
+  grid-column: span 3;
+}
+
+main{
+  border: 1px solid red;
+  grid-column: span 9;
+}
+
+footer {
+  border: 1px solid red;
+  grid-column: span 12;
+}
+.box {
+  border: 1px solid blue;
+}
+
+.floatimage {
+  margin: 20px;
+  float: left;
+  margin: 20px;
+  margin-top: 0;
+}
+
+.p2 {
+  clear: both;
+}
+
+.p1, .p2 {
+  border: 1px solid red;
+}
+
+a {
+  color: purple;
+}

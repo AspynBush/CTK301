@@ -1,5 +1,5 @@
 #wrapper {
-  margin: 5em auto;
+  margin: 6em auto;
   padding: 6;
   width: 960px;
   border: 4px solid black;
@@ -10,15 +10,17 @@
   background-color: #darkgray;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
 }
-
-
-
-
 
 body {
 background-color: solid white;
 
+}
+
+audio {
+  margin: 0 auto;
+  grid-column: span 4;
 }
 
 h1 {
@@ -27,10 +29,22 @@ h1 {
   text-align: center;
   font-weight: normal;
   background-color: #fff548;
-  margin: 15px 15px 0px 15px;
+  margin: 15px 15px 20px 15px;
   padding: 5px;
   grid-column: span 4;
   background-image: linear-gradient(to bottom, #fff548, #ffeb00, #f4d600, #f3c800, #edb502);
+}
+
+h2 {
+  border: 2px solid #fff548;
+  font-family: helvetica;
+  text-align: center;
+  font-weight: normal;
+  Margin: 25px 12px 0px 12px;
+  grid-column: span 4;
+  background-image: linear-gradient(to bottom, #fff548, #ffeb00, #f4d600, #f3c800, #edb502);
+}
+
 }
 
 .textshadowbox {
@@ -43,27 +57,88 @@ h1 {
 
 Main {
   font-family: helvetica;
+  grid-column: span 4;
+  margin: 0px 15px 0px 250px;
+  padding: 0px 15px 0px 15px;
+  Color: black;
+  text-align: center;
+}
+
+.text {
+  font-family: helvetica;
+  grid-column: span 4;
+  margin: 0px 15px 10px 15px;
+  padding: 10px 15px 10px 15px;
+  Color: black;
+  border: 2px solid #fff548;
+  background-color: #fff548;
+  text-align: center;
+}
+
+.music {
+  margin: 0 auto;
+  grid-column: span 4;
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+}
+
+main img {
+  margin: 0 auto;
+  grid-column: 4;
+  width: 250px;
+  height: 250px;
+  padding: 5px 0px 5px 0px;
+}
+
+
+
+.art {
+  margin: 0 auto;
+  grid-column: span 4;
+  width: 300px;
+  padding: 25px 0px 10px 0px;
+}
+
+.me {
+  margin: 0 auto;
+  grid-column: span 4;
+  width: 300px;
+  padding: 0px 0px 10px 0px;
 }
 
 nav {
   text-align: center;
-  grid-column: span 4;
-  margin: 0 auto;
+  grid-column: span 1;
+  margin: 0px;
+  position: fixed;
+  top: 173;
+  padding-left: 15px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
 
 .roundedbox {
-  padding: 10px;
-  width: 250px;
+  padding: 7px;
+  width: 200px;
   border: 2px solid #fff548;
   background-color: #fff548;
   border-radius: 10px;
+  grid-column: span 4;
+  margin: 0 auto;
   background-image: linear-gradient(to bottom, #fff548, #ffeb00, #f4d600, #f3c800, #edb502);
 }
 
+Nav ul {
 
+}
 Nav li {
   font-size: 30;
   margin: 20px 0px 20px 0px;
+  padding: 0px, 0px, 0px, 0px;
   background-image: linear-gradient(to bottom, #fff548, #ffeb00, #f4d600, #f3c800, #edb502);
 }
 
@@ -73,17 +148,11 @@ nav li a {
   text-decoration: none;
   background-image: linear-gradient(to bottom, #fff548, #ffeb00, #f4d600, #f3c800, #edb502);
   display: block;
-  border-radius: 10px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 nav li a:hover {
   color: white;
+  padding: 0px auto;
   background-image: linear-gradient(to top, #fff548, #ffeb00, #f4d600, #f3c800, #edb502);
   display: block;
 
